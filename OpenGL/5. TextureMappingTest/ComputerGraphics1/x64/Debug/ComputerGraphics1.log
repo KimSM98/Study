@@ -1,0 +1,5 @@
+﻿  Texture Mapping.cpp
+c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제5\computergraphics1\computergraphics1\texture mapping.cpp(32): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제5\computergraphics1\computergraphics1\texture mapping.cpp(33): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제5\computergraphics1\computergraphics1\texture mapping.cpp(57): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ComputerGraphics1.vcxproj -> C:\Users\Ksm\Desktop\KSM\CG\SourceCode\컴그 과제5\ComputerGraphics1\x64\Debug\ComputerGraphics1.exe

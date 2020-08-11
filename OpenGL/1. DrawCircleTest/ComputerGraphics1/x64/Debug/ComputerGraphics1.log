@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  DrawCircle.cpp
+c:\users\ksm\desktop\study\study\opengl\drawcircletest\computergraphics1\drawcircle.cpp(76): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  ComputerGraphics1.vcxproj -> C:\Users\Ksm\Desktop\Study\Study\OpenGL\DrawCircleTest\x64\Debug\ComputerGraphics1.exe
