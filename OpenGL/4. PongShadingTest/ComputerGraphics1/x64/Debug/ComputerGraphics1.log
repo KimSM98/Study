@@ -1,9 +1,57 @@
 ﻿  pch.cpp
   Pong Shading.cpp
-c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제4\pongshadingtest\computergraphics1\pong shading.cpp(30): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제4\pongshadingtest\computergraphics1\pong shading.cpp(31): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\ksm\desktop\ksm\cg\sourcecode\컴그 과제4\pongshadingtest\computergraphics1\pong shading.cpp(55): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\Pong Shading.cpp(5,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glew.h': No such file or directory
   j3a.cpp
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(65,25): error C2039: 'string': 'std'의 멤버가 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : 'std' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(65,31): error C2065: 'string': 선언되지 않은 식별자입니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(65,13): error C2923: 'std::vector': 'string'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(65,13): error C2976: 'std::vector': 템플릿 인수가 너무 적습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : 'std::vector' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(66,25): error C2039: 'string': 'std'의 멤버가 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : 'std' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(66,31): error C2065: 'string': 선언되지 않은 식별자입니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(66,13): error C2923: 'std::vector': 'string'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(66,13): error C2976: 'std::vector': 템플릿 인수가 너무 적습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : 'std::vector' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(67,25): error C2039: 'string': 'std'의 멤버가 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : 'std' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(67,31): error C2065: 'string': 선언되지 않은 식별자입니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(67,13): error C2923: 'std::vector': 'string'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(67,13): error C2976: 'std::vector': 템플릿 인수가 너무 적습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : 'std::vector' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(68,25): error C2039: 'string': 'std'의 멤버가 아닙니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : 'std' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(68,31): error C2065: 'string': 선언되지 않은 식별자입니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(68,13): error C2923: 'std::vector': 'string'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(68,13): error C2976: 'std::vector': 템플릿 인수가 너무 적습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(413): message : 'std::vector' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(27,26): error C2371: 'diffuseMap': 재정의. 기본 형식이 다릅니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(65): message : 'diffuseMap' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(28,26): error C2371: 'bumpMap': 재정의. 기본 형식이 다릅니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(66): message : 'bumpMap' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(29,26): error C2371: 'specularMap': 재정의. 기본 형식이 다릅니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(67): message : 'specularMap' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(30,26): error C2371: 'ambientOcclusionMap': 재정의. 기본 형식이 다릅니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.hpp(68): message : 'ambientOcclusionMap' 선언을 참조하십시오.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(76,15): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(77,39): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(77,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(77,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(77,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(79,12): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(80,36): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(80,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(80,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(80,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(82,16): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(83,40): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(83,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(83,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(83,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(84,24): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(85,47): error C2088: '[': class에 맞지 않습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(85,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(85,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\KSM\Desktop\Project\Study\OpenGL\4. PongShadingTest\ComputerGraphics1\j3a.cpp(85,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
   코드를 생성하고 있습니다...
-LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
-  ComputerGraphics1.vcxproj -> C:\Users\Ksm\Desktop\KSM\CG\SourceCode\컴그 과제4\PongShadingTest\x64\Debug\ComputerGraphics1.exe
