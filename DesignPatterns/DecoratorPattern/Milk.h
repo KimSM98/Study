@@ -7,7 +7,4 @@ public:
 	Milk(Beverage* beverage);
 	string getDescription() const override;
 	double cost() const;
-
-private:
-	Beverage* mBeverage;
 };

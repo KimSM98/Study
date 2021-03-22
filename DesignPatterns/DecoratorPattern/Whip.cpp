@@ -1,7 +1,8 @@
 #include "Whip.h"
 
-Whip::Whip(Beverage* beverage) : mBeverage(beverage)
+Whip::Whip(Beverage* beverage)
 {
+	mBeverage = beverage;
 }
 
 string Whip::getDescription() const

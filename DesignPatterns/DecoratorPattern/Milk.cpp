@@ -1,7 +1,8 @@
 #include "Milk.h"
 
-Milk::Milk(Beverage* beverage) : mBeverage(beverage)
+Milk::Milk(Beverage* beverage)
 {
+	mBeverage = beverage;
 }
 
 string Milk::getDescription() const

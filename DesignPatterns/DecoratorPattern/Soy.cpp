@@ -1,7 +1,8 @@
 #include "Soy.h"
 
-Soy::Soy(Beverage* beverage) : mBeverage(beverage)
+Soy::Soy(Beverage* beverage)
 {
+	mBeverage = beverage;
 }
 
 string Soy::getDescription() const

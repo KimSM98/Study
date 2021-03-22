@@ -1,7 +1,8 @@
 #include "Mocha.h"
 
-Mocha::Mocha(Beverage* beverage) : mBeverage(beverage)
+Mocha::Mocha(Beverage* beverage)
 {
+	mBeverage = beverage;
 }
 
 string Mocha::getDescription() const
