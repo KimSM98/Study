@@ -1,0 +1,92 @@
+Plant UML : http://www.plantuml.com/plantuml/uml/LP1B3iCW30NtFWNAghr3LUKcaGj4GG8Z6MVHsxS81yBRpVW3ybe4MSuK0Jz56AqOpSMZO2EMOimoYmMGA0jAoAIJdS46jj6RdiRmU9efJM_bo2pRdZc1lZKwAeCBc3AvRfNXzPxtgRylz2H1lgEbyL-VwJvP6GA9vntjzV7Ei7fozLW_
+
+ex) 
+class GeomatricObject{
+ -color : string
+ -filled : bool
+ +GeomatricObject()
+ +getColor() : string const
+ +setColor(color : string) : void
+}
+
+***************************
+
+@startuml
+skinparam classAttributeIconSize 0
+
+Beverage <|-- HouseBlend
+Beverage <|-- DarkRoast
+Beverage <|-- Espresso
+Beverage <|-- Decaf
+Beverage <|-- CondimentDecorator
+CondimentDecorator <|-- Milk
+CondimentDecorator <|-- Mocha
+CondimentDecorator <|-- Soy
+CondimentDecorator <|-- Whip
+
+class PizzaStore {
++orderPizza(type : std::string) : Pizza
+#{abstract}createPizza(type : std::string) : Pizza
+}
+
+class NYPizzaStore {
+createPizza(type : std::string) : Pizza
+}
+class ChicagoPizzaStore {
+createPizza(type : std::string) : Pizza
+}
+
+class Pizza{
+-name : std::string
+-dough : std::string
+-sauce : std::string
+-toppings : arrayList
++prepare() : void
++bake() : void
++cut() : void
++box() : void
++getName() : std::string
+}
+class HouseBlend{
++HouseBlend()
++cost() : double const
+}
+
+class DarkRoast{
++DarkRoast()
++cost() : double const
+}
+
+class Espresso{
++Espresso()
++cost() : double const
+}
+
+class Decaf{
++Decaf()
++cost() : double const
+}
+
+class Milk{
++Milk(beverage : Beverage*)
++getDescription() : std::string const
++cost() : double const
+}
+
+class Mocha{
++Mocha(beverage : Beverage*)
++getDescription() : std::string const
++cost() : double const
+}
+
+class Soy{
++Soy(beverage : Beverage*)
++getDescription() : std::string const
++cost() : double const
+}
+
+class Whip{
++Whip(beverage : Beverage*)
++getDescription() : std::string const
++cost() : double const
+}
